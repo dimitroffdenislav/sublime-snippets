@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[
+<section class="section">
+	<div class="shell">
+		<div class="section__inner">
+			<div class="section__content">
+				
+			</div><!-- /.section__content -->
+
+			<div class="section__image">
+				<div class="section__image-bg">
+					
+				</div><!-- /.section__image-bg -->
+			</div><!-- /.section__image -->	
+		</div><!-- /.section__inner -->
+	</div><!-- /.shell -->
+</section><!-- /.section -->
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>sectionf</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

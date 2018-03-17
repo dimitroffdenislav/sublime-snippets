@@ -1,0 +1,28 @@
+<snippet>
+	<content><![CDATA[
+function mobileNavigation () {
+	\$('.menu-item-has-children > a').on('click', function(e) \{
+		if ( !\$(this).parent().hasClass('js-show') ) \{
+			e.preventDefault();
+
+			\$(this)
+				.next()
+				.slideDown()
+				.parent()
+				.addClass('js-show')
+				.siblings()
+				.removeClass('js-show')
+				.find('.sub-menu')
+				.slideUp()
+				.find('.js-show')
+				.removeClass('js-show');
+		\}
+	\});
+\}
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>navm</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

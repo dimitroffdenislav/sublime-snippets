@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+\$('.nav-trigger').on('click', (event) => \{
+	event.preventDefault();
+	\$(this).toggleClass('active');
+	\$('body').toggleClass('open-nav')
+\});
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>njs</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

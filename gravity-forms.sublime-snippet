@@ -1,0 +1,9 @@
+	<snippet>
+		<content><![CDATA[
+	
+	<?php crb_render_gform( ${1:this}, true ); ?>
+	]]></content>
+		<tabTrigger>wpgf</tabTrigger> 
+		<!-- Optional: Set a scope to limit where the snippet will trigger -->
+		<scope>text.html</scope>
+	</snippet>

@@ -1,0 +1,27 @@
+<snippet>
+	<content><![CDATA[
+/* ------------------------------------------------------------ *\
+	Nav
+\* ------------------------------------------------------------ */
+
+.nav-trigger { position: relative; display: none;  width: 28px; height: 20px; }
+.nav-trigger span { position: absolute; display: block; height: 2px; width: 100%; background: #fff; transition: top .2s .25s, left .2s .25s, opacity .2s .25s, transform .2s 0s; }
+.nav-trigger span:nth-child(1) { top: 0; }
+.nav-trigger span:nth-child(2) { top: 9px; }
+.nav-trigger span:nth-child(3) { top: 18px; }
+
+.nav-trigger.active span { transition: background .2s, top .2s, left .2s, opacity .2s, transform .2s .25s; }
+    
+.nav-trigger.active span:nth-child(3),
+.nav-trigger.active span:nth-child(1) { top: 9px;  background: #fff; }
+
+.nav-trigger.active span:nth-child(2) { opacity: 0; }
+.nav-trigger.active span:nth-child(1) { transform: rotate(45deg); }
+.nav-trigger.active span:nth-child(3) { transform: rotate(-45deg); }
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>navt</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
